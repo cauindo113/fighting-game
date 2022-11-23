@@ -180,7 +180,7 @@ function animate() {
   player.velocity.x = 0
   enemy.velocity.x = 0
 
-  // player movement
+  // chơi movement
 
   if (keys.a.pressed && player.lastKey === 'a') {
     player.velocity.x = -5
